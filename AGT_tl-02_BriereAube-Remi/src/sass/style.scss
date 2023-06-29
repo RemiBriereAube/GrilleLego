@@ -1,0 +1,18 @@
+@use 'header';
+@use 'mainSection';
+@use 'footer';
+
+body {
+    margin:0;
+}
+
+main, footer{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+@media screen and (min-width: 900px) {
+    main, footer {
+        grid-template-columns: repeat(12, 1fr);
+    }
+}

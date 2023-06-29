@@ -1,0 +1,812 @@
+//MAIN BLOC 01 STYLE
+#bloc-01 {
+    grid-column: 1 / 5;
+}
+/* ------------------- ACCESSIBILITÉ-START --------------------- */
+// lien style
+main a{
+    color: black;
+}
+main a:link{
+    text-decoration: none;
+    color: black;
+}
+main a:hover{
+    opacity: 0.5 ;
+    text-decoration: underline;
+    font-weight: 700;
+}
+main a:visited{
+    color: purple;
+    text-decoration: none;
+}
+main a:active{
+    text-decoration: none;
+    color: red;
+}
+main a:focus{
+    text-decoration: none;
+    background-color: lightblue;
+}
+// SVG style 
+main svg:hover {
+    opacity: 0.5;
+}
+main svg:active{
+    text-decoration: none;
+    color: red;
+}
+//Img style
+main img:hover{
+    opacity: 0.5 ;
+    border: 0.5px solid black ;
+}
+//bouton style
+//banner
+#btn_bannerMobile:hover {
+    background-color: black;
+    color: white;
+    border: 2px solid white;
+    text-decoration: none;
+    font-weight: bolder;
+}
+#btn_bannerMobile:active {
+    text-decoration: none;
+    color: rgb(58, 0, 0);
+    font-weight: 600;
+}
+#btn_bannerMobile:focus {
+    text-decoration: underline;
+    background-color: lightblue;   
+    color: black;  
+    border: 2px solid black;       
+}
+//item card
+.btn-card:hover {
+    background-color: white;
+    color: black;
+    border: 2px solid rgb(255, 123, 0);
+    text-decoration: none;
+    font-weight: bolder;
+}
+.btn-card:active {
+    text-decoration: none;
+    color: rgb(58, 0, 0);
+    font-weight: 600;
+}
+.btn-card:focus {
+    text-decoration: underline;
+    background-color: lightblue;   
+    color: black;  
+    border: 2px solid black;       
+}
+//btn visiter la boutique
+.btn-card-02:hover {
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+    text-decoration: none;
+    font-weight: bolder;
+}
+.btn-card-02:active {
+    text-decoration: none;
+    color: rgb(58, 0, 0);
+    font-weight: 600;
+}
+.btn-card-02:focus {
+    text-decoration: underline;
+    background-color: lightblue;   
+    color: red;    
+}
+//btn visiter la boutique| precommande
+.btn-card-03:hover {
+    color: white;
+    border: 2px solid white;
+    text-decoration: none;
+    font-weight: bolder;
+}
+.btn-card-03:active {
+    text-decoration: none;
+    color: rgb(58, 0, 0);
+    font-weight: 600;
+}
+.btn-card-03:focus {
+    text-decoration: underline;
+    background-color: lightblue;   
+    color: red;    
+}
+//btn consulter la liste
+#lowBannerBtn:hover {
+    background-color: black;
+    color: white;
+    border: 2px solid white;
+    text-decoration: none;
+    font-weight: bolder;
+}
+#lowBannerBtn:active {
+    text-decoration: none;
+    color: rgb(58, 0, 0);
+    font-weight: 600;
+}
+#lowBannerBtn:focus {
+    text-decoration: underline;
+    background-color: lightblue;   
+    color: black;  
+    border: 2px solid black;       
+}
+///
+.btn-card-alt:hover {
+    background-color: black;
+    color: white;
+    border: 2px solid white;
+    text-decoration: none;
+    font-weight: bolder;
+}
+.btn-card-alt:active {
+    text-decoration: none;
+    color: rgb(58, 0, 0);
+    font-weight: 600;
+}
+.btn-card-alt:focus {
+    text-decoration: underline;
+    background-color: lightblue;   
+    color: black;  
+    border: 2px solid black;       
+}
+////////////////////////////////////
+#banner01 img{
+    width: 100%;
+}
+#underBanner01{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-top: 200px;
+    padding-bottom: 25px;
+}
+#title-under{
+    font-size: larger;
+    font-weight: 500;
+    padding: 0;
+    margin-bottom: 5px;
+}
+
+#btn_bannerMobile{
+    border: none;
+    border-radius: 3px;
+    font-size: 15px;
+    padding: 8px 15px 8px 15px;
+    font-weight: 600;
+    background-color: white;
+}
+
+//MAIN BLOC 02 STYLE
+#bloc-02{
+    grid-column: 1 / 5;
+    padding-top: 15px;
+    padding-bottom: 100px;
+    padding-left: 20px;
+    padding-right:20px ;
+}
+#bloc-02-lien{
+    padding: 0;
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+}
+.li-bloc-02{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    width: 25%;
+}
+.li-bloc-02 span{
+    display: block;
+    text-align: center;
+    font-size: small;
+}
+
+#bloc-02-lien a{
+    text-decoration: none;
+}
+.img-icon{
+    width: 35px;
+    height: 35px;
+    margin-left: 5px;
+}
+//CARROUSEL STYLE
+#carrousel-01{
+    margin-left: 20px;
+    margin-bottom: 70px;
+    grid-column: 1 / 5;
+}
+
+#carrousel-01 h3{
+    font-size: 20px;
+    padding-bottom: 5px;
+}
+.bi-caret-right-square{
+    display: none;
+}
+
+//CARD STYLE
+.card-contentDesktop{
+     display: none;
+    }
+.card-content02Desktop{
+    display: none;
+}
+.item-card{
+    border: none;
+}
+
+.card-content{
+    position: relative;
+}
+
+.card-body{
+    border: none;
+    margin-top:10px
+}
+.product-image{
+    border: 3px solid gray;
+    width: 80%;
+}
+
+.bi-heart-fill{
+    position: absolute;
+    left: 15px;  
+    top: 15px;  
+}
+
+.titre-card{
+    margin: 0;
+    font-weight: 600;
+}
+.price-card{
+    font-weight: 700;
+    margin-bottom: 0;
+}
+.btn-card{
+    font-size: medium;
+    font-weight: 500;
+    width: 80%;
+    padding: 13px;
+    border-radius: 5;
+    border: none;
+    background-color: rgb(255, 123, 0);
+}
+
+// 2e FORMAT STYLE
+.carrousel-02{
+    margin-left: 20px;
+    margin-bottom: 80px;
+    grid-column: 1 / 5;
+    align-items: center;
+}
+
+.carrousel-02 h3{
+    font-size: 20px;
+    padding-bottom: 5px;
+}
+
+.card-body02 h4{
+    padding-top: 10px;
+    padding-left: 90px;
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+.description-02{
+    font-size: small;
+    font-weight: 400;
+    margin-bottom: 5px;
+    padding-left: 60px;
+}
+#description-02{
+    font-size: small;
+    font-weight: 400;
+    margin-bottom: 5px;
+    padding-left: 70px;
+}
+
+.product-image-02{
+    border: none;
+    width: 80%;
+}
+
+.btn-card-02{
+    font-size: medium;
+    text-align: center;
+    font-weight: 500;
+    width: 80%;
+    padding: 0;
+    border: none;
+    background-color: white;
+}
+
+// 3e FORMAT STYLE
+#section-precommande{
+    grid-column: 1 / 5;
+    overflow: hidden;
+}
+
+#title-h3{
+    padding-left: 20px;
+    font-size: 20px;
+    padding-bottom: 5px;
+}
+
+#precommande{
+    position: relative;
+    margin-left: 20px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+#precommande img{
+    width: 100%;
+}
+
+.product-image03{
+    border: none;
+}
+.card-body03{
+    background-color: black;
+    color: white;
+    width: 100%;
+    top: 360px;
+}
+.card-body03 h4{
+    padding-top: 10px;
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.description-03{
+    font-size: small;
+    font-weight: 400;
+    margin-bottom: 5px;
+}
+.btn-card-03{
+    font-size: medium;
+    text-align: center;
+    font-weight: 700;
+    width: 80%;
+    padding-top: 0;
+    margin-top: 0;
+    margin-bottom: 20px;
+    border: none;
+    color: white;
+    background-color: black;
+}
+
+#precommande-02{
+    position: relative;
+    margin-left: 20px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+#precommande-02 img{
+    width: 100%;
+}
+
+#precommande-03{
+    position: relative;
+    margin-right: 0;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+#precommande-03 img{
+    width: 100%;
+}
+#lowBannerDesktop{
+    display: none;
+}
+
+.card-body-alt{
+    background-color: black;
+    color: white;
+    width: 100%;
+    padding-top: 20px;
+    top: 220px;
+}
+
+.description-03{
+    padding-top: 10px;
+    font-size: small;
+    font-weight: 400;
+}
+.btn-card-alt{
+    font-size: small;
+    text-align: center;
+    font-weight: 700;
+    width: 40%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 5;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border: none;
+    color: black;
+    background-color: white;
+}
+
+//CARROUSEL 02 STYLE
+#carrousel-02{
+    margin-left: 20px;
+    margin-bottom: 90px;
+    grid-column: 1 / 5;
+    overflow: hidden;
+}
+
+#carrousel-02 h3{
+    font-size: 20px;
+    padding-bottom: 5px;
+}
+
+
+//SLIDER STYLE
+.slidecontainer {
+    width: 95%; 
+    position: absolute;
+    margin-top: 15px;
+  }
+  
+  /* The slider itself */
+  .slider {
+    -webkit-appearance: none;  
+    appearance: none;
+    width: 90%; 
+    height: 5px;
+    background: #d3d3d3; 
+    outline: none; 
+    opacity: 0.7; 
+    -webkit-transition: .2s; 
+    transition: opacity .2s;
+  }
+  
+  /* Mouse-over effects */
+  .slider:hover {
+    opacity: 2; 
+  }
+  
+  /* The slider handle */
+  .slider::-webkit-slider-thumb {
+    -webkit-appearance: none; 
+    appearance: none;
+    width: 50px; 
+    height: 5px; 
+    background: #3f3f3f; 
+    cursor: pointer; 
+  }
+/*SLIDER 02 STYLE*/
+.slidecontainer-02 {
+    width: 95%; 
+    position: absolute;
+    margin-top: 15px;
+  }
+
+.slider02 {
+    -webkit-appearance: none;  
+    appearance: none;
+    width: 90%; 
+    height: 5px;
+    background: #d3d3d3; 
+    outline: none; 
+    opacity: 0.7; 
+    -webkit-transition: .2s; 
+    transition: opacity .2s;
+  }
+  
+  /* Mouse-over effects */
+  .slider02:hover {
+    opacity: 2; 
+  }
+  
+  /* The slider handle */
+  .slider02::-webkit-slider-thumb {
+    -webkit-appearance: none; 
+    appearance: none;
+    width: 130px; 
+    height: 5px; 
+    background: #3f3f3f; 
+    cursor: pointer; 
+  }
+  
+
+
+@media screen and (min-width: 900px) {
+    //MAIN BLOC 01 STYLE
+    #bannerMobile{
+        width: 100%;
+        grid-column: 1 / 5;    
+    }
+    #bannerDesktop{
+        width: 100%;
+        grid-column: 1 / 5;    
+    }
+    #bloc-01{
+        grid-column: 2 / 12;
+    }
+    #banner01{
+        float: right;    
+        width: 40%; 
+    }
+    #underBanner01{
+        padding-top: 180px;
+        padding-bottom: 135px;
+    }
+
+    //MAIN BLOC 02 STYLE
+    #bloc-02{
+        grid-column: 3 / 11;
+        display: block;
+    }
+    #bloc-02-lien{
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .li-bloc-02{
+        width: auto;
+    }
+
+    //Caroussel 01 
+    #carrousel-01{
+        grid-column: 3 / 11;
+        margin-left: 0;
+
+    }
+    #itemCardCarrousel01{
+        display: flex;
+        justify-content: space-between;
+    }
+    .bi-caret-right-square{
+        display: block;
+        margin-top: 180px;
+        margin-left: 20px;
+    }
+    .card-content{
+        display: block; 
+        position: relative;
+        width: 23%;
+        margin-bottom: 0;
+        padding-bottom: 0;
+    }
+    //
+    .card-contentDesktop{
+        display: block; 
+        position: relative;
+        width: 23%;
+        margin-bottom: 0;
+        padding-bottom: 0;
+    }
+    .new-div{
+        display: none;
+    }
+    .product-image{
+        width: 100%;
+    }
+    .product-imageDesktop{
+        border: 3px solid gray;
+        width: 100%;
+    }
+    //
+    .card-bodyDesktop {
+        margin-top: 10px;;
+
+    }
+    .btn-card{
+        width: 100%;
+    }
+    .new-divDesktop {
+        display: none;
+    
+    }
+    .titre-cardDesktop{
+        margin: 0;
+        font-weight: 600;
+    }
+    .price-cardDesktop{
+        font-weight: 700;
+        margin-bottom: 0;
+    }
+    .btn-cardDesktop{
+        font-size: medium;
+        font-weight: 500;
+        width: 100%;
+        padding: 13px;
+        border-radius: 5;
+        border: none;
+        background-color: rgb(255, 123, 0);
+    }
+
+    // Carrousel 02
+    .carrousel-02{
+        grid-column: 4 / 10;
+        margin-left: 0px;
+    }
+    
+    #itemCardCarrousel02{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .card-content02{
+        padding:0;
+        align-items: center;
+        text-align: center;
+    }
+    .card-content02 h4{
+        padding:0;
+        margin-top: 5px;
+        font-size: 18px;
+    }
+
+    .card-content02Desktop{
+        display: block;
+        align-items: center;
+        text-align: center;
+        padding: 0;
+    }
+
+    .card-content02Desktop h4{
+        padding:0;
+        margin-top: 5px;
+        font-size: 18px;
+    }
+    .description-02{
+        padding: 0;
+    }
+    #description-02{
+        padding-left: 0;
+    }
+    // Section Precommande
+    #section-precommande{
+        grid-column: 4 / 10 ;
+        margin-top: 180px;
+        margin-left: 0px;
+        padding-left: 0px;
+        margin-top: 0;
+    }
+
+    #section-precommande h3{
+        margin-left: 0px;
+        padding-left: 0px;
+    }
+
+    #precommandeProduct{
+        flex-wrap: wrap;
+        justify-content: space-between;
+        display: flex;
+        margin-bottom: 50px;
+    }
+
+    .card-content-02{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    #precommande{
+        padding-left: 0px;
+        width: 49%;
+        margin: 0;
+        margin-right: 0;
+    }
+    #precommande-02{
+        padding-left: 0px;
+        width: 49%;
+        margin-left: 0;
+        margin-right: 0;
+    } 
+    #precommande-03{
+        display: none;
+    }
+    // Low Banner
+    #lowBannerDesktop{
+        grid-column: 2 / 12;
+        display: block;
+        display: flex;
+        margin-bottom: 40px;
+    }
+    #lowBannerContent{
+       width: 30%;
+    }
+    #lowBannerImg{
+        width: 100%;
+    }
+    #lowBannerBody{
+        color: white;
+        background-color: black;
+        width: 75%;
+        text-align: center;
+        align-items: center;
+    }
+    #lowBannerDescription{
+        padding-top: 50px;
+    }
+    #lowBannerBtn{
+        background-color: white;
+        border-radius: 6px;
+        padding: 10px 20px;
+        font-weight: 600;
+    }
+
+    ///
+    #carrousel-02{
+        grid-column: 4 / 10;
+        margin-left: 0;
+    }
+    #itemCardCarrousel04{
+    display: flex;
+    justify-content: space-between;
+    }
+
+
+    #itemCardCarrousel04{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    #itemCardCarrousel01{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    //Slider 
+    .slidecontainer{
+        position: relative;
+        width: 100%;
+        margin-left: 40px;
+    }
+    .slider::-webkit-slider-thumb {
+        width: 150px; 
+        height: 5px; 
+    }
+    .slidecontainer-02{
+        display: none;
+    }   
+    //
+    #btn_bannerMobile:hover {
+        background-color: black;
+        color: white;
+        border: 2px solid white;
+        text-decoration: none;
+        font-weight: bolder;
+    }
+    
+    #btn_bannerMobile:active {
+        text-decoration: none;
+        color: rgb(58, 0, 0);
+        font-weight: 600;
+    }
+    #btn_bannerMobile:focus {
+        text-decoration: underline;
+        background-color: lightblue;   
+        color: black;  
+        border: 2px solid black;       
+    }
+    //
+    .btn-cardDesktop:hover {
+        background-color: white;
+        color: black;
+        border: 2px solid rgb(255, 123, 0);
+        text-decoration: none;
+        font-weight: bolder;
+    }
+    .btn-cardDesktop:active {
+        text-decoration: none;
+        color: rgb(58, 0, 0);
+        font-weight: 600;
+    }
+    .btn-cardDesktop:focus {
+        text-decoration: underline;
+        background-color: lightblue;   
+        color: black;  
+        border: 2px solid black;       
+    }
+}

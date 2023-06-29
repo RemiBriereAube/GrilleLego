@@ -1,0 +1,834 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TL-02 Rémi Brière-Aubé</title>
+    <link rel="stylesheet" href="/index.c92073ef.css">
+    <link rel="stylesheet" href="/index.75f14d4e.css">
+    <script src="/index.900caf0b.js" defer=""></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <div id="over_bar">
+            <button id="btn_over" aria-label="button menant à la boutique">Boutique</button>
+            <div id="content_Over">
+                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-chevron-left" viewbox="0 0 16 16" aria-label="icone de chevron pointant vers la gauche">
+                    <path fill-rule="evenodd" d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z"></path>
+                </svg>
+                <p>Le nouvelle album de The Ocean :<a href="https://pelagic-records.com/" aria-label="lien menant à la section de précommande"> Précommande</a></p>
+                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-chevron-right" viewbox="0 0 16 16" aria-label="icone de chevron pointant vers la droite">
+                    <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"></path>
+                </svg>
+            </div>
+            <a href="#">
+                <p id="close" aria-label="icone de fermeture de section">X</p>
+            </a>
+            <div id="over-icon-right">
+                <a href="#">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-person-fill" viewbox="0 0 16 16" aria-label="icone de compte utilisateur">
+                        <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3Zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z"></path>
+                    </svg>
+                </a>
+                <p>Compte</p>
+                <p>|</p>
+                <a href="#">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-gear-fill" viewbox="0 0 16 16" aria-label="icone menant aux préférences de l'utilisateur">
+                        <path d="M9.405 1.05c-.413-1.4-2.397-1.4-2.81 0l-.1.34a1.464 1.464 0 0 1-2.105.872l-.31-.17c-1.283-.698-2.686.705-1.987 1.987l.169.311c.446.82.023 1.841-.872 2.105l-.34.1c-1.4.413-1.4 2.397 0 2.81l.34.1a1.464 1.464 0 0 1 .872 2.105l-.17.31c-.698 1.283.705 2.686 1.987 1.987l.311-.169a1.464 1.464 0 0 1 2.105.872l.1.34c.413 1.4 2.397 1.4 2.81 0l.1-.34a1.464 1.464 0 0 1 2.105-.872l.31.17c1.283.698 2.686-.705 1.987-1.987l-.169-.311a1.464 1.464 0 0 1 .872-2.105l.34-.1c1.4-.413 1.4-2.397 0-2.81l-.34-.1a1.464 1.464 0 0 1-.872-2.105l.17-.31c.698-1.283-.705-2.686-1.987-1.987l-.311.169a1.464 1.464 0 0 1-2.105-.872l-.1-.34zM8 10.93a2.929 2.929 0 1 1 0-5.86 2.929 2.929 0 0 1 0 5.858z"></path>
+                    </svg>
+                </a>
+                <p>Préférence</p>
+            </div>   
+        </div>
+        <nav>
+            <div id="nav_content">
+                <div id="containerLeft">
+                    <div id="menuIcon">
+                        <a href="#">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-list" viewbox="0 0 16 16" aria-label="icone de menu hamburger">
+                                <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"></path>
+                            </svg>
+                        </a>
+                        <p>Menu</p>
+                    </div>
+                    <img src="/logo_pelagic.c93d98ed.png" alt="logo de compagnie" id="logo" aria-label="logo de l'entreprise Pelagic Record">  
+                    <ul>
+                        <li><a href="#" class="lienNav" aria-label="lien menant à la section: magasiner">MAGASINER</a></li>
+                        <li><a href="#" class="lienNav" aria-label="lien menant à la section: découvrir">DÉCOUVRIR</a></li>
+                        <li><a href="#" class="lienNav" aria-label="lien menant à la section: aide">AIDE</a></li>
+                    </ul>
+                </div>
+                <div id="containerRight">
+                    <a href="#">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-search" viewbox="0 0 16 16" aria-label="icone de loupe de recherche">
+                            <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"></path>
+                        </svg>
+                    </a>
+                    <a href="#">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-search-heart-fill" viewbox="0 0 16 16" aria-label="icone de favoris en forme de coeur">
+                            <path d="M6.5 13a6.474 6.474 0 0 0 3.845-1.258h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.008 1.008 0 0 0-.115-.1A6.471 6.471 0 0 0 13 6.5 6.502 6.502 0 0 0 6.5 0a6.5 6.5 0 1 0 0 13Zm0-8.518c1.664-1.673 5.825 1.254 0 5.018-5.825-3.764-1.664-6.69 0-5.018Z"></path>
+                        </svg>
+                    </a>
+                    <a href="#">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-person-circle" viewbox="0 0 16 16" aria-label="icone de compte utilisateur">
+                            <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"></path>
+                            <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z"></path>
+                        </svg>
+                    </a>
+                    <a href="#">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-heart" viewbox="0 0 16 16" aria-label="icone de favoris en forme de coeur">
+                            <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"></path>
+                        </svg>
+                    </a>
+                    <a href="#">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-cart" viewbox="0 0 16 16" aria-label="icone du panier de magasinage">
+                            <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l1.313 7h8.17l1.313-7H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"></path>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <!--BANNIÈRE-->
+        <div id="bloc-01">
+            <div id="banner01">
+                <img src="/Banner01_mobile.00a2ab11.jpg" alt="Groupe métal faisant une performance" aria-label="groupe de musique faisant une performance devant publique">
+            </div>
+            <div id="underBanner01">
+                <p id="title-under">Hypno5e en spectacle</p>
+                <p>Les billets sont maintenant disponible</p>
+                <button id="btn_bannerMobile" aria-label="bouton permettant d'avoir accès à des billets de concert">En savoir plus
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-right" viewbox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"></path>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <!--Liens navigation-->
+        <section id="bloc-02">
+            <ul id="bloc-02-lien">
+                <li class="li-bloc-02">
+                    <a href="#" aria-label="lien menant à la section: nouveauté">
+                        <img class="img-icon" src="/megaphone.b30a28dd.png" alt="Icone de megaphone">
+                        <span>Nouveauté</span>
+                    </a>
+                </li>
+                <li class="li-bloc-02">
+                    <a href="#" aria-label="lien menant à la section: exclusivité">
+                        <img class="img-icon" src="/exclusive.25c90fbc.png" alt="Icone d'exclusivité'">
+                        <span>Exclusivité</span>
+                    </a>
+                </li>
+                <li class="li-bloc-02" aria-label="lien menant à la section: offres">
+                    <a href="#">
+                        <img class="img-icon" src="/offer.935e854f.png" alt="Icone des offres">
+                        <span>Offres</span>
+                    </a>
+                </li>
+                <li class="li-bloc-02" aria-label="lien menant à la section: artistes">
+                    <a href="#">
+                        <img class="img-icon" src="/artist.cc36c4ce.png" alt="Icone d'artiste">
+                        <span>Artistes</span>
+                    </a>
+                </li>
+                <li class="li-bloc-02" aria-label="lien menant à la section: support">
+                    <a href="#">
+                        <img class="img-icon" src="/support.d2a06f81.png" alt="Icone de support">
+                        <span>Support</span>
+                    </a>
+                </li>
+                <li class="li-bloc-02" aria-label="lien menant à la section: tournée">
+                    <a href="#">
+                        <img class="img-icon" src="/destination.a2a94007.png" alt="Icone de tournée">
+                        <span>Tournée</span>
+                    </a>
+                </li>
+                <li class="li-bloc-02" aria-label="lien menant à la section: vacances">
+                    <a href="#">
+                        <img class="img-icon" src="/holidays.54aff345.png" alt="Icone de vacance">
+                        <span>Vacances</span>
+                    </a>
+                </li>
+                <li class="li-bloc-02" aria-label="lien menant à la section: blog">
+                    <a href="#">
+                        <img class="img-icon" src="/blogging.71ac25b6.png" alt="Icone de blog">
+                        <span>Blog</span>
+                    </a>
+                </li>
+            </ul>
+        </section>
+        <!--1er carrousel-->
+        <section id="carrousel-01">
+            <h3>Recommandé pour vous</h3>
+            <div id="itemCardCarrousel01">
+                <!--item 1 mobile-->
+                <div class="card-content">
+                    <a href="#">
+                        <img src="/alba_ombres.4a4789d2.jpg" class="product-image" alt="Couverture de l'album Ombres Errante de Alba" aria-label="Couverture de l'album Ombres Errante de Alba"> 
+                        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="white" class="bi bi-heart-fill" viewbox="0 0 16 16" aria-label="icone de coeur pour ajouter au favoris">
+                            <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z"></path>
+                        </svg>
+                    </a>
+                    <div class="card-body">
+                        <p class="titre-card">Les Ombres Errantes</p>
+                        <div class="star-card" aria-label="icone d'étoiles équivalant à l'appréciation du publique">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="orange" class="bi bi-star-fill" viewbox="0 0 16 16">
+                                <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"></path>
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="orange" class="bi bi-star-fill" viewbox="0 0 16 16">
+                                <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"></path>
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="orange" class="bi bi-star-fill" viewbox="0 0 16 16">
+                                <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"></path>
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="orange" class="bi bi-star-fill" viewbox="0 0 16 16">
+                                <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"></path>
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="orange" class="bi bi-star-fill" viewbox="0 0 16 16">
+                                <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"></path>
+                            </svg>
+                        </div>
+                        <p class="price-card"><span>29.00 </span>CAD</p>
+                        <button class="btn-card" aria-label="bouton d'ajout au panier">Ajouter</button>
+                    </div>
+                </div>
+                <!--item 2 Desktop-->
+                <div class="card-contentDesktop">
+                    <a href="#">
+                        <img src="/herod_sombre-dessein.5cbd9c01.jpg" class="product-imageDesktop" alt="Couverture de l'album Sombre Dessein du groupe Herod" aria-label="Couverture de l'album Sombre Dessein du groupe Herod"> 
+                        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="white" class="bi bi-heart-fill" viewbox="0 0 16 16" aria-label="icone de coeur pour ajouter au favoris">
+                            <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z"></path>
+                        </svg>
+                    </a>
+                    <div class="card-bodyDesktop">
+                        <p class="titre-cardDesktop">Sombre Dessein</p>
+                        <div class="star-cardDesktop" aria-label="icone d'étoiles équivalant à l'appréciation du publique">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="orange" class="bi bi-star-fill" viewbox="0 0 16 16">
+                                <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"></path>
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="orange" class="bi bi-star-fill" viewbox="0 0 16 16">
+                                <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"></path>
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="orange" class="bi bi-star-fill" viewbox="0 0 16 16">
+                                <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"></path>
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="orange" class="bi bi-star-fill" viewbox="0 0 16 16">
+                                <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"></path>
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="orange" class="bi bi-star-fill" viewbox="0 0 16 16">
+                                <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"></path>
+                            </svg>
+                        </div>
+                        <p class="price-cardDesktop"><span>29.00 </span>CAD</p>
+                        <button class="btn-cardDesktop" aria-label="bouton d'ajout au panier">Ajouter</button>
+                    </div>
+                </div>
+                <!--item 3 Desktop-->
+                <div class="card-contentDesktop">
+                    <a href="#">
+                        <img src="/barrens_penumbra.822ab51e.jpg" class="product-imageDesktop" alt="Couverture de l'album Penumbra du groupe Barrens" aria-label="Couverture de l'album Penumbra du groupe Barrens"> 
+                        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="white" class="bi bi-heart-fill" viewbox="0 0 16 16" aria-label="icone de coeur pour ajouter au favoris">
+                            <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z"></path>
+                        </svg>
+                    </a>
+                    <div class="card-bodyDesktop">
+                        <p class="titre-cardDesktop">Penumbra</p>
+                        <div class="star-cardDesktop" aria-label="icone d'étoiles équivalant à l'appréciation du publique">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="orange" class="bi bi-star-fill" viewbox="0 0 16 16">
+                                <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"></path>
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="orange" class="bi bi-star-fill" viewbox="0 0 16 16">
+                                <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"></path>
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="orange" class="bi bi-star-fill" viewbox="0 0 16 16">
+                                <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"></path>
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="orange" class="bi bi-star-fill" viewbox="0 0 16 16">
+                                <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"></path>
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="orange" class="bi bi-star-fill" viewbox="0 0 16 16">
+                                <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"></path>
+                            </svg>
+                        </div>
+                        <p class="price-cardDesktop"><span>15.00 </span>CAD</p>
+                        <button class="btn-cardDesktop" aria-label="bouton d'ajout au panier">Ajouter</button>
+                    </div>
+                </div>
+                <!--item 4 Desktop-->
+                <div class="card-contentDesktop">
+                    <a href="#">
+                        <img src="/wuw_orchestro.94bb82ef.jpg" class="product-imageDesktop" alt="Couverture de l'album Orchestro du groupe Wuw" aria-label="Couverture de l'album Orchestro du groupe Wuw"> 
+                        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="white" class="bi bi-heart-fill" viewbox="0 0 16 16" aria-label="icone de coeur pour ajouter au favoris">
+                            <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z"></path>
+                        </svg>
+                    </a>
+                    <div class="card-bodyDesktop">
+                        <p class="titre-cardDesktop">Orchestro</p>
+                        <div class="star-cardDesktop" aria-label="icone d'étoiles équivalant à l'appréciation du publique">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="orange" class="bi bi-star-fill" viewbox="0 0 16 16">
+                                <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"></path>
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="orange" class="bi bi-star-fill" viewbox="0 0 16 16">
+                                <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"></path>
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="orange" class="bi bi-star-fill" viewbox="0 0 16 16">
+                                <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"></path>
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="orange" class="bi bi-star-fill" viewbox="0 0 16 16">
+                                <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"></path>
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="orange" class="bi bi-star-fill" viewbox="0 0 16 16">
+                                <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"></path>
+                            </svg>
+                        </div>
+                        <p class="price-cardDesktop"><span>34.99 </span>CAD</p>
+                        <button class="btn-cardDesktop" aria-label="bouton d'ajout au panier">Ajouter</button>
+                    </div>
+                </div>
+            </div>
+            <div class="slidecontainer" aria-label="glissière pour naviguer dans le carrousel">
+                <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
+            </div>
+        </section>
+        <!--faux btn Carrousel 01-->
+        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-caret-right-square" viewbox="0 0 16 16" aria-label="bouton pour sélectionner la prochaine carte de produit">
+            <path d="M14 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h12zM2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z"></path>
+            <path d="M5.795 12.456A.5.5 0 0 1 5.5 12V4a.5.5 0 0 1 .832-.374l4.5 4a.5.5 0 0 1 0 .748l-4.5 4a.5.5 0 0 1-.537.082z"></path>
+        </svg>
+        <!--2e carrousel template-->
+        <section class="carrousel-02">
+            <h3>Dernière Sortie</h3>
+            <div id="itemCardCarrousel02">
+                <!--1er item mobile-->
+                <div class="card-content02">
+                    <a href="#">
+                        <img src="/nyos_celebration.e5a4316b.jpg" class="product-image-02" alt="Couverture de l'album Celebration du groupe Nyos" aria-label="Couverture de l'album Celebration du groupe Nyos"> 
+                    </a>
+                    <div class="card-body02">
+                        <h4 class="titre-card02">Celebration - Nyos</h4>
+                        <p class="description-02">Nouvelle album du groupe finlandais Nyos.</p>
+                        <button class="btn-card-02" aria-label="bouton permettant de visiter la boutique">Visiter la boutique
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-right" viewbox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"></path>
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+                <!--2e item desktop-->
+                <div class="card-content02Desktop">
+                    <a href="#">
+                        <img src="/hiroe_wrought.978461ab.jpg" class="product-image-02" alt="Couverture de l'album Wrought du groupe Hiroe" aria-label="Pochette de l'album Wrought du groupe Hiroe"> 
+                    </a>
+                    <div class="card-body02">
+                        <h4 class="titre-card02">Wrought - Hiroe</h4>
+                        <p class="description-02">Nouvelle album du groupe européen Hiroe.</p>
+                        <button class="btn-card-02" aria-label="bouton permettant de visiter la boutique">Visiter la boutique
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-right" viewbox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"></path>
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+                <!--3e item desktop-->
+                <div class="card-content02Desktop">
+                    <a href="#">
+                        <img src="/cult_mariner.fcec3c59.jpg" class="product-image-02" alt="Couverture de l'album Mariner du groupe Cult of Luna" aria-label="Couverture de l'album Mariner du groupe Cult of Luna"> 
+                    </a>
+                    <div class="card-body02">
+                        <h4 class="titre-card02">Mariner - C.O.L.</h4>
+                        <p class="description-02">Nouvelle album du groupe suédois Cult of Luna.</p>
+                        <button class="btn-card-02" aria-label="bouton permettant de visiter la boutique">Visiter la boutique
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-right" viewbox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"></path>
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+                <!--4e item desktop-->
+                <div class="card-content02Desktop">
+                    <a href="#">
+                        <img src="/hypno5e_sheol.95c42ba0.jpg" class="product-image-02" alt="Couverture de l'album Sheol du groupe Hypno5e" aria-label="Couverture de l'album Sheol du groupe Hypno5e"> 
+                    </a>
+                    <div class="card-body02">
+                        <h4 class="titre-card02">Sheol - Hypno5e</h4>
+                        <p class="description-02">Nouvelle album du groupe français HYPNO5E.</p>
+                        <button class="btn-card-02" aria-label="bouton permettant de visiter la boutique">Visiter la boutique
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-right" viewbox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"></path>
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="slidecontainer-02" aria-label="glissière pour naviguer dans le carrousel">
+                <input type="range" min="1" max="100" value="50" class="slider02" id="myRange02">
+            </div>
+        </section>
+        <!--3e carrousel-->
+        <section class="carrousel-02">
+            <h3>Nos produits les plus vendues</h3>
+            <div id="itemCardCarrousel02">
+                <!--1er item mobile-->
+                <div class="card-content02">
+                    <a href="#">
+                        <img src="/ocean_pelagic.85bc12ff.jpg" class="product-image-02" alt="Couverture de l'album Pelagicn du groupe The Ocean" aria-label="Couverture de l'album Pelagicn du groupe The Ocean"> 
+                    </a>
+                    <div class="card-body02">
+                        <h4 class="titre-card02">Pelagic- The Ocean</h4>
+                        <p id="description-02">Redécouvrez cette album classique.</p>
+                        <button class="btn-card-02" aria-label="Bouton permettant de visiter la boutique">Visiter la boutique
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-right" viewbox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"></path>
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+                <!--2e item desktop-->
+                <div class="card-content02Desktop">
+                    <a href="#">
+                        <img src="/llnn_loss.44d13ad4.jpg" class="product-image-02" alt="Couverture de l'album Loss du groupe LLNN" aria-label="Couverture de l'album Loss du groupe LLNN"> 
+                    </a>
+                    <div class="card-body02">
+                        <h4 class="titre-card02">Loss - LLNN</h4>
+                        <p class="description-02">Redécouvrez cette album classique.</p>
+                        <button class="btn-card-02" aria-label="Bouton permettant de visiter la boutique">Visiter la boutique
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-right" viewbox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"></path>
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+                <!--3e item desktop-->
+                <div class="card-content02Desktop">
+                    <a href="#">
+                        <img src="/supra_dioramic.86d7d106.jpg" class="product-image-02" alt="Couverture de l'album Supra du groupe Dioramic" aria-label="Couverture de l'album Supra du groupe Dioramic"> 
+                    </a>
+                    <div class="card-body02">
+                        <h4 class="titre-card02">Supra - Dioramic</h4>
+                        <p class="description-02">Redécouvrez cette album classique.</p>
+                        <button class="btn-card-02" aria-label="Bouton permettant de visiter la boutique">Visiter la boutique
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-right" viewbox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"></path>
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+                <!--4e item desktop-->
+                <div class="card-content02Desktop">
+                    <a href="#">
+                        <img src="/pg.lost_key.11fc14d1.jpg" class="product-image-02" alt="Couverture de l'album Key du groupe Pg.Lost" aria-label="Couverture de l'album Key du groupe Pg.Lost"> 
+                    </a>
+                    <div class="card-body02">
+                        <h4 class="titre-card02">Key - Pg.Lost</h4>
+                        <p class="description-02">Redécouvrez cette album classique.</p>
+                        <button class="btn-card-02" aria-label="Bouton permettant de visiter la boutique">Visiter la boutique
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-right" viewbox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"></path>
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="slidecontainer-02" aria-label="glissière pour naviguer dans le carrousel">
+                <input type="range" min="1" max="100" value="50" class="slider02" id="myRange02">
+            </div>
+        </section>
+        <!--Précommande section-->
+        <section id="section-precommande">
+            <h3 id="title-h3">Précommande</h3>
+            <div id="precommandeProduct">
+                <div id="precommande">
+                    <div class="card-content-02">
+                        <a href="#">
+                            <img src="/ocean_preboreal.3d9a067a.jpg" class="product-image03" alt="Couverture de l'album Preboreal de l'album The Ocean" aria-label="Couverture de l'album Preboreal de l'album The Ocean"> 
+                        </a>
+                        <div class="card-body03">
+                            <h4 class="titre-card02">Preboreal - The Ocean</h4>
+                            <p>10e album 2023/05/26</p>
+                            <button class="btn-card-03" aria-label="bouton permettant la visite de la boutique">Visiter la boutique
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-right" viewbox="0 0 16 16">
+                                    <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"></path>
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div id="precommande-02">
+                    <div class="card-content-02">
+                        <a href="#">
+                            <img src="/wangWen_10000.d51ce2b2.jpg" class="product-image03" alt="Couverture de l'album 10000 whys du groupe Wang Wen" aria-label="Couverture de l'album 10000 whys du groupe Wang Wen"> 
+                        </a>
+                        <div class="card-body03">
+                            <h4 class="titre-card02">100, 000 Whys - Wang Wen</h4>
+                            <p>11e album 2023/04/10</p>
+                            <button class="btn-card-03" aria-label="bouton permettant la visite de la boutique">Visiter la boutique
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-right" viewbox="0 0 16 16">
+                                    <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"></path>
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <section id="precommande-03">
+                <div class="card-content-03">
+                    <a href="#">
+                        <img src="/image_banner02.c10144a4.jpg" class="product-image03" alt="un groupe de metal en spectacle" aria-label="un groupe de metal en spectacle"> 
+                    </a>
+                    <div class="card-body-alt">
+                        <p id="description-03">Voir les spectacles près de chez vous.</p>
+                        <button class="btn-card-alt" aria-label="bouton permettant de consulter la liste des spectacles près de la localisation de l'utilisateur">Consulter la liste
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-right" viewbox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"></path>
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+            </section>
+        </section>
+        <!--Carrousel 04-->
+        <section id="lowBannerDesktop">
+            <div id="lowBannerBody">
+                <p id="lowBannerDescription">Voir les spectacles près de chez vous.</p>
+                <button id="lowBannerBtn" aria-label="bouton permettant de consulter la liste des spectacles près de la localisation de l'utilisateur">Consulter la liste
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-right" viewbox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"></path>
+                    </svg>
+                </button>
+            </div>
+            <div id="lowBannerContent">
+                <a href="#">
+                    <img src="/image_banner02.c10144a4.jpg" id="lowBannerImg" alt="un groupe de metal en spectacle" aria-label="un groupe de metal en spectacle"> 
+                </a>
+            </div>
+        </section>
+        <!--Carrousel 04-->
+        <section id="carrousel-02">
+            <h3>Produit exclusif</h3>
+            <div id="itemCardCarrousel04">
+                <!--item 1 Desktop-->
+                <div class="card-content">
+                    <a href="#">
+                        <img src="/pg.lost_oscillate.3f9f2e19.jpg" class="product-image" alt="Couverture de l'album Oscillate de PG.Lost" aria-label="Couverture de l'album Oscillate de PG.Lost"> 
+                        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="white" class="bi bi-heart-fill" viewbox="0 0 16 16" aria-label="icone de coeur pour ajouter au favoris">
+                            <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z"></path>
+                        </svg>
+                    </a>
+                    <div class="card-body">
+                        <p class="titre-card">Oscillate</p>
+                        <div class="star-card" aria-label="icone d'étoile désignant l'appréciation du publique">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="orange" class="bi bi-star-fill" viewbox="0 0 16 16">
+                                <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"></path>
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="orange" class="bi bi-star-fill" viewbox="0 0 16 16">
+                                <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"></path>
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="orange" class="bi bi-star-fill" viewbox="0 0 16 16">
+                                <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"></path>
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="orange" class="bi bi-star-fill" viewbox="0 0 16 16">
+                                <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"></path>
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="orange" class="bi bi-star-fill" viewbox="0 0 16 16">
+                                <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"></path>
+                            </svg>
+                        </div>
+                        <p class="price-card"><span>35.00 </span>CAD</p>
+                        <button class="btn-card" aria-label="bouton d'ajout au panier">Ajouter</button>
+                    </div>
+                </div>
+                <!--item 2 Desktop-->
+                <div class="card-contentDesktop">
+                    <a href="#">
+                        <img src="/cult_raging.87296c77.jpg" class="product-imageDesktop" alt="Couverture de l'album The Raging River du groupe Cult of Luna" aria-label="Couverture de l'album The Raging River du groupe Cult of Luna"> 
+                        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="white" class="bi bi-heart-fill" viewbox="0 0 16 16" aria-label="icone de coeur pour ajouter au favoris">
+                            <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z"></path>
+                        </svg>
+                    </a>
+                    <div class="card-bodyDesktop">
+                        <p class="titre-cardDesktop">The Raging River</p>
+                        <div class="star-cardDesktop" aria-label="icone d'étoile désignant l'appréciation du publique">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="orange" class="bi bi-star-fill" viewbox="0 0 16 16">
+                                <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"></path>
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="orange" class="bi bi-star-fill" viewbox="0 0 16 16">
+                                <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"></path>
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="orange" class="bi bi-star-fill" viewbox="0 0 16 16">
+                                <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"></path>
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="orange" class="bi bi-star-fill" viewbox="0 0 16 16">
+                                <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"></path>
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="orange" class="bi bi-star-fill" viewbox="0 0 16 16">
+                                <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"></path>
+                            </svg>
+                        </div>
+                        <p class="price-cardDesktop"><span>39.00 </span>CAD</p>
+                        <button class="btn-cardDesktop" aria-label="bouton d'ajout au panier">Ajouter</button>
+                    </div>
+                </div>
+                <!--item 3 Desktop-->
+                <div class="card-contentDesktop">
+                    <a href="#">
+                        <img src="/astrosaur_portals.061b56b5.jpg" class="product-imageDesktop" alt="Couverture de l'album Portals du groupe Astrosaur" aria-label="Couverture de l'album Portals du groupe Astrosaur"> 
+                        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="white" class="bi bi-heart-fill" viewbox="0 0 16 16" aria-label="icone de coeur pour ajouter au favoris">
+                            <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z"></path>
+                        </svg>
+                    </a>
+                    <div class="card-bodyDesktop">
+                        <p class="titre-cardDesktop">Portals</p>
+                        <div class="star-cardDesktop" aria-label="icone d'étoile désignant l'appréciation du publique">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="orange" class="bi bi-star-fill" viewbox="0 0 16 16">
+                                <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"></path>
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="orange" class="bi bi-star-fill" viewbox="0 0 16 16">
+                                <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"></path>
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="orange" class="bi bi-star-fill" viewbox="0 0 16 16">
+                                <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"></path>
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="orange" class="bi bi-star-fill" viewbox="0 0 16 16">
+                                <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"></path>
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="orange" class="bi bi-star-fill" viewbox="0 0 16 16">
+                                <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"></path>
+                            </svg>
+                        </div>
+                        <p class="price-cardDesktop"><span>19.00 </span>CAD</p>
+                        <button class="btn-cardDesktop" aria-label="bouton d'ajout au panier">Ajouter</button>
+                    </div>
+                </div>
+                <!--item 4 Desktop-->
+                <div class="card-contentDesktop">
+                    <a href="#">
+                        <img src="/psychonaut_violent.5fc24d66.jpg" class="product-imageDesktop" alt="Couverture de l'album Violate Consensus Reality du groupe Psychonaut" aria-label="Couverture de l'album Violate Consensus Reality du groupe Psychonaut"> 
+                        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="white" class="bi bi-heart-fill" viewbox="0 0 16 16" aria-label="icone de coeur pour ajouter au favoris">
+                            <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z"></path>
+                        </svg>
+                    </a>
+                    <div class="card-bodyDesktop">
+                        <p class="titre-cardDesktop">Violate Consensus Reality</p>
+                        <div class="star-cardDesktop" aria-label="icone d'étoile désignant l'appréciation du publique">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="orange" class="bi bi-star-fill" viewbox="0 0 16 16">
+                                <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"></path>
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="orange" class="bi bi-star-fill" viewbox="0 0 16 16">
+                                <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"></path>
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="orange" class="bi bi-star-fill" viewbox="0 0 16 16">
+                                <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"></path>
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="orange" class="bi bi-star-fill" viewbox="0 0 16 16">
+                                <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"></path>
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="orange" class="bi bi-star-fill" viewbox="0 0 16 16">
+                                <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"></path>
+                            </svg>
+                        </div>
+                        <p class="price-cardDesktop"><span>34.99 </span>CAD</p>
+                        <button class="btn-cardDesktop" aria-label="bouton d'ajout au panier">Ajouter</button>
+                    </div>
+                </div>
+            </div>
+            <div class="slidecontainer" aria-label="glissière pour naviguer dans le carrousel">
+                <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
+            </div>
+        </section>
+        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-caret-right-square" viewbox="0 0 16 16" aria-label="bouton permettant de choisir la prochaine carte de produit">
+            <path d="M14 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h12zM2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z"></path>
+            <path d="M5.795 12.456A.5.5 0 0 1 5.5 12V4a.5.5 0 0 1 .832-.374l4.5 4a.5.5 0 0 1 0 .748l-4.5 4a.5.5 0 0 1-.537.082z"></path>
+        </svg>   
+    </main>
+    <footer>
+        <div id="footer01">
+            <div id="logo-location">
+                <img src="/logo_pelagic.c93d98ed.png" alt="logo de compagnie" id="logoFooter" aria-label="logo d'entreprise Pelagic Record">
+                <button id="buttonFooter" aria-label="bouton de géolocalisation">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt" viewbox="0 0 16 16" aria-label="icone de géolocalisation">
+                        <path d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A31.493 31.493 0 0 1 8 14.58a31.481 31.481 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94zM8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10z"></path>
+                        <path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"></path>
+                    </svg>Canada
+                </button>
+            </div>
+            <div id="lien-footer01">
+                <a href="#" aria-label="lien menant à la section : carte cadeaux">Carte cadeaux</a>
+                <a href="#" aria-label="lien menant à la section : liste des artistes">Liste des artistes</a>
+                <a href="#" aria-label="lien menant à la section : trouver un magasin">Trouver un magasin</a>
+            </div>
+            <div id="lien-footer02">
+                <p>ABONNEZ-VOUS À L'INFOLETTRE</p>
+                <div id="newsletter-button" aria-label="bouton d'inscription à l'infolettre">
+                    <input id="newsletter-input01" type="text" placeholder="Courriel" name="Courriel" aria-label="champ de texte pour le courriel d'inscription">
+                    <input id="newsletter-input02" type="submit" value=">" aria-label="Bouton d'envoie pour l'inscription à l'infolettre">
+                </div>
+            </div>
+            <a href="#" aria-label="lien menant à la section à propos">
+                <div id="lien01">
+                    <p>À PROPOS</p>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-down" viewbox="0 0 16 16" aria-label="chevron pointant vers le bas">
+                        <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"></path>
+                    </svg>
+                </div>
+            </a>
+            <a href="#" aria-label="lien menant à la section support">
+                <div id="lien02">
+                    <p>SUPPORT</p>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-down" viewbox="0 0 16 16" aria-label="chevron pointant vers le bas">
+                        <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"></path>
+                    </svg>
+                </div>
+            </a>
+            <a href="#" aria-label="lien menant à la section préférences">
+                <div id="lien03">
+                    <p>PRÉFÉRENCES</p>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-down" viewbox="0 0 16 16" aria-label="chevron pointant vers le bas">
+                        <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"></path>
+                    </svg>
+                </div>
+            </a>
+            <a href="#" aria-label="lien menant à la section contact">
+                <div id="lien04">
+                    <p>CONTACT</p>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-down" viewbox="0 0 16 16" aria-label="chevron pointant vers le bas">
+                        <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"></path>
+                    </svg>
+                </div>
+            </a>
+            <div id="lien-footer03">
+                <p>SUIVEZ-NOUS</p>
+                <a href="#">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" class="bi bi-facebook" viewbox="0 0 16 16" aria-label="icone facebook">
+                        <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"></path>
+                    </svg>
+                </a>
+                <a href="#">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" class="bi bi-twitter" viewbox="0 0 16 16" aria-label="icone twitter">
+                        <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"></path>
+                    </svg>
+                </a>
+                <a href="#">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" class="bi bi-instagram" viewbox="0 0 16 16" aria-label="icone instagram">
+                        <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"></path>
+                    </svg>
+                </a>
+                <a href="#">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" class="bi bi-youtube" viewbox="0 0 16 16" aria-label="icone youtube">
+                        <path d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.007 2.007 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.007 2.007 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31.4 31.4 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.007 2.007 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A99.788 99.788 0 0 1 7.858 2h.193zM6.4 5.209v4.818l4.157-2.408L6.4 5.209z"></path>
+                    </svg>
+                </a>
+            </div>
+            <div id="lien-footer04">
+                <a href="#" aria-label="lien menant à la section : confidentialité">Confidentialité</a>
+                <a href="#" aria-label="lien menant à la section : cookies">Cookies</a>
+                <a href="#" aria-label="lien menant à la section : mention légale">Mention légale</a>
+                <a href="#" aria-label="lien menant à la section : condition d'utilisation">Condition d'utilisation</a>
+                <a href="#" aria-label="lien menant à la section : numérique">Numérique</a>
+                <a href="#" aria-label="lien menant à la section : accessibilité">Accessibilité</a>
+                <a href="#" aria-label="lien menant à la section : préférence">Préférence</a>
+            </div>
+            <p id="copyright">La présentation des marchandises dans notre boutique en ligne ne constitue pas une offre contractuelle juridiquement contraignante de notre part, mais uniquement une invitation non contraignante du consommateur à commander des marchandises. ©2023</p>
+        </div>
+        <div id="footer02">
+            <div id="container01">
+                <div id="logo-location-Desk">
+                    <img src="/logo_pelagic.c93d98ed.png" alt="logo de compagnie" id="logoFooterDesk" aria-label="logo de l'entreprise Pelagic Records">
+                    <button id="buttonFooterDesk" aria-label="bouton de géolocalisation">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-geo-alt" viewbox="0 0 16 16" aria-label="icone de géolocalisation">
+                            <path d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A31.493 31.493 0 0 1 8 14.58a31.481 31.481 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94zM8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10z"></path>
+                            <path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"></path>
+                        </svg>Canada
+                    </button>
+                    <a href="#" aria-label="lien menant à la section : carte cadeaux">Carte cadeaux</a>
+                    <a href="#" aria-label="lien menant à la section : liste des artistes">Liste des artistes</a>
+                    <a href="#" aria-label="lien menant à la section : trouver un magasin">Trouver un magasin</a>
+                </div>
+                <div id="lien-desktop-01">
+                    <div class="tagDesktop">
+                        <p>À PROPOS</p>
+                        <a href="#" aria-label="lien menant à la section : à propos de pelagic">À propos de Pelagic</a>
+                        <a href="#" aria-label="lien menant à la section : nouveauté">Nouveauté</a>
+                        <a href="#" aria-label="lien menant à la section : durabilité">Durabilité</a>
+                        <a href="#" aria-label="lien menant à la section : approvisionnement">Approvisionnement</a>
+                        <a href="#" aria-label="lien menant à la section : certification">Certification</a>
+                        <a href="#" aria-label="lien menant à la section : emplois">Emplois</a>
+                        <a href="#" aria-label="lien menant à la section : conformité">Conformité</a>
+                    </div>
+                    <div class="tagDesktop">
+                        <p>SUPPORT</p>
+                        <a href="#" aria-label="lien menant à la section : nous contacter">Nous contacter</a>
+                        <a href="#" aria-label="lien menant à la section : instruction">Instruction</a>
+                        <a href="#" aria-label="lien menant à la section : garantis">Garantis</a>
+                        <a href="#" aria-label="lien menant à la section : expédition">Expédition</a>
+                        <a href="#" aria-label="lien menant à la section : méthodes de payement">Méthodes de payement</a>
+                        <a href="#" aria-label="lien menant à la section : termes et conditions">Termes et conditions</a>
+                        <a href="#" aria-label="lien menant à la section : rappels">Rappels</a>
+                    </div>
+                    <div class="tagDesktop">
+                        <p>PRÉFÉRENCES</p>
+                        <a href="#" aria-label="lien menant à la section : profile">Profile</a>
+                        <a href="#" aria-label="lien menant à la section : langues">Langues</a>
+                        <a href="#" aria-label="lien menant à la section : thème">Thème</a>
+                    </div>
+                    <div class="tagDesktop">
+                        <p>CONTACT</p>
+                        <a href="#" aria-label="lien menant à la section : adresse">Adresse</a>
+                        <a href="#" aria-label="lien menant à la section : heures">Heures</a>
+                        <a href="#" aria-label="lien menant à la section : téléphone">Téléphone</a>
+                        <a href="#" aria-label="lien menant à la section : équipe">Équipe</a>
+                        <a href="#" aria-label="lien menant à la section : formulaire">Formulaire</a>
+                    </div>
+                </div>
+            </div>
+            <div id="lien-desktop-02">
+                <div id="infolettre-desktop">
+                    <p>ABONNEZ-VOUS À L'INFOLETTRE</p>
+                    <div id="newsletter-button02" aria-label="bouton d'inscription à l'infolettre">
+                        <input id="newsletter-input-desk01" type="text" placeholder="Courriel" name="Courriel" aria-label="champ de texte pour le courriel d'inscription">
+                        <input id="newsletter-input-desk02" type="submit" value=">" aria-label="bouton d'envoie pour l'inscription à l'infolettre">
+                    </div>
+                </div>
+                <div id="lien-footerDesk">
+                    <p>SUIVEZ-NOUS</p>
+                    <a href="#">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" class="bi bi-facebook" viewbox="0 0 16 16" aria-label="icone facebook">
+                            <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"></path>
+                        </svg>
+                    </a>
+                    <a href="#">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" class="bi bi-twitter" viewbox="0 0 16 16" aria-label="icone twitter">
+                            <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"></path>
+                        </svg>
+                    </a>
+                    <a href="#">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" class="bi bi-instagram" viewbox="0 0 16 16" aria-label="icone instagram">
+                            <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"></path>
+                        </svg>
+                    </a>
+                    <a href="#">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" class="bi bi-youtube" viewbox="0 0 16 16" aria-label="icone youtube">
+                            <path d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.007 2.007 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.007 2.007 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31.4 31.4 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.007 2.007 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A99.788 99.788 0 0 1 7.858 2h.193zM6.4 5.209v4.818l4.157-2.408L6.4 5.209z"></path>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+            <div id="lien-desktop-03">
+                <div id="lien-footerDesk02">
+                    <a href="#" aria-label="lien menant à la section : confidentialité">Confidentialité</a>
+                    <a href="#" aria-label="lien menant à la section : cookies">Cookies</a>
+                    <a href="#" aria-label="lien menant à la section : mention légale">Mention légale</a>
+                    <a href="#" aria-label="lien menant à la section : condition d'utilisation">Condition d'utilisation</a>
+                    <a href="#" aria-label="lien menant à la section : numérique">Numérique</a>
+                    <a href="#" aria-label="lien menant à la section : accessibilité">Accessibilité</a>
+                    <a href="#" aria-label="lien menant à la section : préférence">Préférence</a>
+                </div>
+            </div>
+            <p id="copyright02">La présentation des marchandises dans notre boutique en ligne ne constitue pas une offre contractuelle juridiquement contraignante de notre part, mais uniquement sur une invitation non contraignante du consommateur à commander des marchandises. ©2023</p>
+        </div> 
+    </footer>
+<script src="/AGT_tl-02_BriereAube-Remi.59712999.js"></script></body>
+</html>
